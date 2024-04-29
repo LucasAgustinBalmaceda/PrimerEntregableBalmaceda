@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Compras - Librería</title>
+</head>
+<body>
+    <h1>Simulador de Compras - Librería</h1>
+
+    <form id="formulario">
+        <label for="cantidad_lapices">Cantidad de lápices:</label>
+        <input type="number" id="cantidad_lapices" name="cantidad_lapices" value="0" min="0">
+        <br>
+        <label for="cantidad_cuadernos">Cantidad de cuadernos:</label>
+        <input type="number" id="cantidad_cuadernos" name="cantidad_cuadernos" value="0" min="0">
+        <br>
+        <label for="cantidad_lapiceras">Cantidad de lapiceras:</label>
+        <input type="number" id="cantidad_lapiceras" name="cantidad_lapiceras" value="0" min="0">
+        <br>
+        <button type="button" onclick="calcularTotal()">Calcular Total</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
